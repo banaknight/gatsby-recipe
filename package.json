@@ -2,7 +2,7 @@
   "name": "gatsby-starter-default",
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Junya Mochizuki",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-brands-svg-icons": "^5.15.4",
@@ -37,7 +37,7 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "0BSD",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop",
