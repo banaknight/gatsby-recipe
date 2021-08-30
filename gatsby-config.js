@@ -1,7 +1,3 @@
-require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
-})
-
 module.exports = {
   siteMetadata: {
     title: `Koorin パンのブログ`,
@@ -35,12 +31,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        extentions: [`.md`, `.mdx`],
-      },
-    },
-    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `gatsby-starter-default`,
@@ -67,7 +57,7 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: `8xzjudo2co8j`,
-        accessToken: process.env.CONTENTFUL_API_KEY,
+        accessToken: `N5AtQJ9rP3tQkcvxmXz0dwm8dDDVGYOa-mUuKkSp8H4`,
       },
     },
     `gatsby-plugin-gatsby-cloud`,
